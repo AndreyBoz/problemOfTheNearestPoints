@@ -90,7 +90,7 @@ namespace Program {
             int countSnail = 0;
             double minDist;
             List<Snail> snails = new List<Snail>();
-            Console.WriteLine("Введите количество улиток: ");
+            Console.WriteLine("Enter the number of snails:: ");
             if (int.TryParse(Console.ReadLine(), out countSnail)) {
                 for (int i = 0;i < countSnail; i++) {
                     snails.Add(new Snail());    
